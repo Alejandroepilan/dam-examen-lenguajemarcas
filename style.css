@@ -1,0 +1,110 @@
+.container {
+    width: 600px;
+    height: 700px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: auto;
+}
+
+.main {
+    padding: 30px;
+}
+
+.searchcontainer {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 2px rgb(0, 123, 255) solid;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+}
+
+.searchinput {
+    outline: none;
+    line-height: 38px;
+    border: none;
+    font-size: 15px;
+}
+
+.icono-lupa {
+    color: rgb(0, 123, 255);
+    margin: 0px 10px 0px 15px;
+}
+
+
+.pinnedcontainer{
+    padding: 0px 30px 0px 30px;
+}
+
+.pinnedheader {
+    width: 100%;
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+
+.pinnedheader a {
+    font-weight: bold;
+}
+
+.pinnedmorebutton{
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pinnedmorebutton a {
+    font-weight: bold
+}
+
+.pinnedmorebutton i {
+    font-size: 12px;
+}
+
+
+.pinnedoptionscolumn {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.pinneditem {
+    padding-right: 56px;
+    display: grid;
+}
+
+.pinneditem i {
+    font-size: 30px;
+}
+
+
+
+
+.recommendedheader {
+    width: 100%;
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+
+.recommendedheader a {
+    font-weight: bold;
+}
+
+.recommendedmorebutton{
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.recommendedmorebutton a {
+    font-weight: bold
+}
+
+.recommendedmorebutton i {
+    font-size: 12px;
+}
+
+.recomendeditem i {
+    padding-right: 15px;
+}
